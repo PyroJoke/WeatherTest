@@ -13,7 +13,7 @@ class WeatherListVC: UIViewController, UITableViewDataSource,UITableViewDelegate
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var indi: UIActivityIndicatorView!
 
-    
+   //some comments for git test 1
     var manager: CLLocationManager!
     let weatherProvider = WeatherProvider()
     var currentCity = ""
